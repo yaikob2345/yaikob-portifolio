@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Software, Web, Mobile and Network Projects developed by Yaikob Tesgera">
+<title>Projects | Yaikob Tesgera</title>
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+<a href="index.html" class="logo"><span>&lt;</span>Yaikob<span>/&gt;</span></a>
+<nav class="navbar">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="projects.html" class="active">Projects</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+<div class="header-actions">
+<button id="theme-toggle"><i class="fas fa-moon"></i></button>
+<button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+</div>
+</header>
+
+<main>
+<section class="page-header">
+<p>MY WORK</p>
+<h1>My <span>Projects</span></h1>
+<p>Explore full-stack web applications, mobile platforms, machine learning models, and networking setups.</p>
+</section>
+
+<section class="section">
+<div class="filter-buttons">
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="web">Web</button>
+<button class="filter-btn" data-filter="mobile">Mobile / Mini App</button>
+<button class="filter-btn" data-filter="python">Python / ML</button>
+<button class="filter-btn" data-filter="network">Networking</button>
+</div>
+
+<div class="projects-grid">
+
+<!-- 1 -->
+<article class="project-card project-item" data-category="web">
+<img src="images/project-1.jpg" alt="Blood Bank">
+<div class="project-content">
+<span class="project-category">Web Application</span>
+<h3>Jinka Blood Bank System</h3>
+<p>Complete web portal managing blood donor databases, inventory levels, and hospital request matching[cite: 3].</p>
+<div class="project-tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span></div>
+</div>
+</article>
+
+<!-- 2 -->
+<article class="project-card project-item" data-category="mobile web">
+<div class="project-icon"><i class="fab fa-telegram"></i></div>
+<div class="project-content">
+<span class="project-category">Mobile Mini App</span>
+<h3>Staff Contribution Tracker</h3>
+<p>Telegram Mini-App for managing monthly contribution logs and automated financial reporting for team members[cite: 1].</p>
+<div class="project-tags"><span>JavaScript</span><span>HTML5</span><span>Termux</span></div>
+</div>
+</article>
+
+<!-- 3 -->
+<article class="project-card project-item" data-category="python">
+<img src="images/project-2.jpg" alt="House Price Prediction">
+<div class="project-content">
+<span class="project-category">Machine Learning</span>
+<h3>House Price Prediction Model</h3>
+<p>Predictive analytics platform built with Python and Flask to estimate market house prices[cite: 3].</p>
+<div class="project-tags"><span>Python</span><span>Flask</span><span>Scikit-Learn</span></div>
+</div>
+</article>
+
+<!-- 4 -->
+<article class="project-card project-item" data-category="network">
+<img src="images/project-3.jpg" alt="Network Installation">
+<div class="project-content">
+<span class="project-category">Networking</span>
+<h3>Banking IT Network Infrastructure</h3>
+<p>Structured Ethernet cabling, router configuration, LAN topology, and network access security setup[cite: 1].</p>
+<div class="project-tags"><span>Cisco</span><span>TCP/IP</span><span>LAN</span></div>
+</div>
+</article>
+
+<!-- 5 -->
+<article class="project-card project-item" data-category="web">
+<div class="project-icon"><i class="fas fa-database"></i></div>
+<div class="project-content">
+<span class="project-category">Database System</span>
+<h3>Student Information System</h3>
+<p>Relational database management platform for handling academic registration and records[cite: 4].</p>
+<div class="project-tags"><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div>
+</div>
+</article>
+
+<!-- 6 -->
+<article class="project-card project-item" data-category="web">
+<div class="project-icon"><i class="fas fa-pills"></i></div>
+<div class="project-content">
+<span class="project-category">Management System</span>
+<h3>Pharmacy Inventory Platform</h3>
+<p>Digital medicine stock tracking, sales logs, and expiration notice system[cite: 4].</p>
+<div class="project-tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span></div>
+</div>
+</article>
+
+<!-- 7 -->
+<article class="project-card project-item" data-category="web">
+<div class="project-icon"><i class="fas fa-user-check"></i></div>
+<div class="project-content">
+<span class="project-category">University System</span>
+<h3>Staff Digital Clearance System</h3>
+<p>Web portal streamlining university clearance approvals across administrative departments[cite: 4].</p>
+<div class="project-tags"><span>PHP</span><span>MySQL</span><span>CSS3</span></div>
+</div>
+</article>
+
+<!-- 8 -->
+<article class="project-card project-item" data-category="python">
+<div class="project-icon"><i class="fab fa-python"></i></div>
+<div class="project-content">
+<span class="project-category">Python Scripts</span>
+<h3>System Automation Tools</h3>
+<p>Automated file sorting, data cleaning, and server log processing utility scripts[cite: 4].</p>
+<div class="project-tags"><span>Python</span><span>Automation</span><span>OS Module</span></div>
+</div>
+</article>
+
+<!-- 9 -->
+<article class="project-card project-item" data-category="network">
+<div class="project-icon"><i class="fas fa-shield-halved"></i></div>
+<div class="project-content">
+<span class="project-category">Cybersecurity</span>
+<h3>Network Access & Security Lab</h3>
+<p>Practicing authorized vulnerability assessments and setting network access control policies[cite: 1, 4].</p>
+<div class="project-tags"><span>Security</span><span>Access Control</span><span>Firewall</span></div>
+</div>
+</article>
+
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<div class="copyright">
+<p>© <span id="year"></span> Yaikob Tesgera. All Rights Reserved.</p>
+</div>
+</footer>
+
+<button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+<script src="js/script.js"></script>
+</body>
+</html>
